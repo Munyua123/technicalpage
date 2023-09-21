@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  #navbar {
+    width: 300px;
+    height: 150vh;
+    border: 1px solid #000;
+    display: block;
+    justify-content: center;
+    margin-top: 0px;
+    padding-top: 0px;
+    border-left: 0px;
+    border-top: 0px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    position: fixed;
+  }
+  /* This media action is for mobile-phones */
+  @media (max-width: 1200px) {
+    #navbar > ul {
+      min-width: 320px;
+      height: 27vh;
+    }
+    #main-doc {
+      min-width: 370px;
+    }
+  }
+  
+  /*this media action is for laptops and desktops*/
+  
+  h1 {
+    text-align: center;
+    border-bottom: 1px solid #000;
+    padding-bottom: 10px;
+    margin-bottom: 0;
+    font-size: 30px;
+    font-weight: lighter;
+    padding-top: 0px;
+  }
+  #navbar > ul {
+    list-style: none;
+    padding-left: 4px;
+  }
+  #navbar li {
+    font-size: 19px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: 1px solid #000;
+  }
+  .nav-link {
+    color: #000;
+    text-decoration: none;
+    margin-left: 10px;
+  }
+  
+  /*above are all about the nav and headers, below are all on the main part of the document*/
+  
+  #main-doc {
+    width: 800px;
+    display: block;
+    margin-left: 300px;
+    bottom: 700px;
+    padding-left: 20px;
+  }
+  
+  #main-doc header {
+    padding-top: 20px;
+    font-size: 25px;
+    text-align: left;
+    padding-left: 10px;
+  }
+  #main-doc article {
+    padding-left: 35px;
+  }
+  #main-doc,
+  li {
+    padding-bottom: 10px;
+  }
+  code {
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    padding-left: 30px;
+    border: 1px solid #fff1;
+    margin-left: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
